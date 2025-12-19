@@ -1,0 +1,197 @@
+body {
+    background-color: rebeccapurple;
+    background-image: url(downloaddd.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: red;
+    font-size: 110%;
+}
+
+p, h1 {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-style: oblique;
+}
+
+h1 {
+    text-decoration: line-through;
+    font-style: italic;
+    font-variant: small-caps;
+    border-style: solid;
+    border-color: red;
+    border: solid red 9px;
+    border-top: dashed blue 1px;
+    padding: 70px 50px 20px 30px;
+    margin: 30px 20px 20px 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline wavy;
+    font-weight: 900;
+}
+
+table {
+    color: rgba(249, 5, 1, 0.5);
+    background-color: white;
+    border-collapse: collapse;
+}
+
+li {
+    color: red;
+}
+
+blockquote {
+    color: aqua;
+    background-color: #333;
+    padding: 10px;
+}
+
+.c1 {
+    color: rgb(0, 0, 0);
+}
+
+#t1 {
+    color: aquamarine;
+}
+
+#div1 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+a:link {
+    color: rebeccapurple;
+    text-decoration: wavy;
+}
+
+a:visited {
+    color: blue;
+    font-weight: 300;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#github:hover {
+    color: chocolate;
+}
+
+.overflow {
+    border: solid blue 5px;
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 30px;
+    background-color: rgb(30, 38, 78);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container div {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: navy;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.child1 {
+    background-color: aqua !important;
+    margin: 10px;
+}
+
+.child2 {
+    background-color: aquamarine !important;
+    margin: 10px;
+}
+
+.child3 {
+    background-color: blueviolet !important;
+    margin: 10px;
+}
+
+.child4 {
+    background-color: azure !important;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'sidebar content content content'
+        'footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.invisible {
+    display: block;
+    border: 1px dashed gray;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.head2 {
+    color: darkred;
+    list-style-type: square;
+}
